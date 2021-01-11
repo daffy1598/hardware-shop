@@ -1,4 +1,6 @@
-﻿using HardwareShop.Data.DataModels;
+﻿
+
+using System.Collections.Generic;
 
 namespace HardwareShopRole.Data
 {
@@ -6,8 +8,8 @@ namespace HardwareShopRole.Data
     {
         public string UserId { get; set; }
 
-        public User User { get; set; }
-        
+        public HardwareShopUser User { get; set; }
+
         public int ComputerId { get; set; }
 
         public Computer Computer { get; set; }

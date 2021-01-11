@@ -1,8 +1,5 @@
 ﻿using HardwareShop.Constants;
-using HardwareShop.Data.DataModels;
 using HardwareShopRole.Data;
-using HardwareShopRole.Models;
-using HardwareShopRole.Models.Account;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;

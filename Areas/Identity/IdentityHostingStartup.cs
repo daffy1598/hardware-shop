@@ -7,8 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-[assembly: HostingStartup(typeof(HardwareShopRole.Areas.Identity.IdentityHostingStartup))]
-namespace HardwareShopRole.Areas.Identity
+[assembly: HostingStartup(typeof(HardwareShop.Areas.Identity.IdentityHostingStartup))]
+namespace HardwareShop.Areas.Identity
 {
     public class IdentityHostingStartup : IHostingStartup
     {

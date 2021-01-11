@@ -1,5 +1,4 @@
 using HardwareShopRole.Data;
-using HardwareShopRole.Models.Account;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -38,7 +37,7 @@ namespace HardwareShopRole
 
 
             services.AddDefaultIdentity<HardwareShopUser>()
-                .AddRoles<HardwareShopRole.Models.Account.HardwareShopRole>()
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
        

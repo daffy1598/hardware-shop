@@ -19,7 +19,7 @@ namespace HardwareShop.Data.EntityTypeConfigurations
                 .HasForeignKey(cum => cum.ComputerId);
 
             builder.HasOne(cum => cum.User)
-                .WithMany(u => u.ComputersMapping)
+                .WithMany(u => u.ComputerMapping)
                 .HasForeignKey(cum => cum.UserId);
 
           

@@ -1,4 +1,4 @@
-﻿using HardwareShop.Data.DataModels;
+﻿
 using System;
 
 namespace HardwareShopRole.Data
@@ -19,7 +19,7 @@ namespace HardwareShopRole.Data
 
         public string UserId { get; set; }
 
-        public User User { get; set; }
+        public HardwareShopUser User { get; set; }
 
     }
 }
