@@ -22,13 +22,23 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="@GlobalConstants.AdminArea" asp-controller="Home" asp-action="Index">Admin Home</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Computers
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" asp-area="@GlobalConstants.AdminArea" asp-controller="Computer" asp-action="All">All</a>
+                                <a class="dropdown-item" asp-area="@GlobalConstants.AdminArea" asp-controller="Computer" asp-action="Create">Create</a>
+                                <div class="dropdown-divider"></div>
+                            </div>
+                        </li>
                     }
                     else if (SignInManager.IsSignedIn(User) && User.IsInRole(GlobalConstants.UserRole))
-                    { 
-                @*<li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="@GlobalConstants.AdminArea" asp-controller="Home" asp-action="Index">Admin Home</a>
-                </li>
-                    *@
+                    {
+                        <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="@GlobalConstants.UserArea" asp-controller="Home" asp-action="Index">User Home</a>
+            </li>
+                        
                     }
                     else
                     {

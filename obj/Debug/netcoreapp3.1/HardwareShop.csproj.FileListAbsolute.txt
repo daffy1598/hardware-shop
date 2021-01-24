@@ -171,7 +171,6 @@ C:\Users\fafi_\Desktop\HardwareShop\obj\Debug\netcoreapp3.1\HardwareShop.csprojA
 C:\Users\fafi_\Desktop\HardwareShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
 C:\Users\fafi_\Desktop\HardwareShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Navigation.cshtml.g.cs
 C:\Users\fafi_\Desktop\HardwareShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
-C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\HardwareShop.csprojAssemblyReference.cache
 C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\HardwareShop.AssemblyInfoInputs.cache
 C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\HardwareShop.AssemblyInfo.cs
 C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\HardwareShop.csproj.CoreCompileInputs.cache
@@ -342,3 +341,8 @@ C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\Identit
 C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Computer\All.cshtml.g.cs
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Computer\Create.cshtml.g.cs
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\HardwareShop.csprojAssemblyReference.cache
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\NormalUser\Views\Home\Index.cshtml.g.cs

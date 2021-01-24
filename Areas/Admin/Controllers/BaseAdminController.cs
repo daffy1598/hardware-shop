@@ -1,10 +1,8 @@
 ﻿using HardwareShop.Constants;
+using HardwareShopRole.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace HardwareShop.Areas.Admin.Controllers
 {
@@ -12,6 +10,12 @@ namespace HardwareShop.Areas.Admin.Controllers
     [Authorize(Roles = GlobalConstants.AdminRole)]
     public class BaseAdminController : Controller
     {
+        public BaseAdminController(ApplicationDbContext context)
+        {
+            this.DbContext = context;
+        }
         
+        public ApplicationDbContext DbContext { get; private set; }
     }
+
 }

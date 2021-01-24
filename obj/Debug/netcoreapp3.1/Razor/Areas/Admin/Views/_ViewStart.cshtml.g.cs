@@ -12,7 +12,29 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "C:\Users\fafi_\Desktop\hardware-shop\Areas\Admin\Views\_ViewImports.cshtml"
+using HardwareShop;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\fafi_\Desktop\hardware-shop\Areas\Admin\Views\_ViewImports.cshtml"
+using HardwareShop.Constants;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\fafi_\Desktop\hardware-shop\Areas\Admin\Views\_ViewImports.cshtml"
+using HardwareShopRole.Data;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Areas/Admin/Views/_ViewStart.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d43def9b670cebba320863ef50b0c16594619ecd", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
