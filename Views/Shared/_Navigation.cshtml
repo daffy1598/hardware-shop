@@ -1,5 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Identity
-@using HardwareShop.Constants
+@using HardwareShop.Constans;
 @inject SignInManager<HardwareShopUser> SignInManager
 @inject UserManager<HardwareShopUser> UserManager
 
@@ -15,21 +15,35 @@
 
                 <ul class="navbar-nav flex-grow-1">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Computer" asp-action="All">All Computers</a>
                     </li>
-                    @if (SignInManager.IsSignedIn(User) && User.IsInRole(GlobalConstants.AdminRole))
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="ServicePackage" asp-action="All">All Service Package</a>
+                    </li>
+                    @if (SignInManager.IsSignedIn(User) && User.IsInRole(GlobalConstants.AdminRole));
                     {
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="@GlobalConstants.AdminArea" asp-controller="Home" asp-action="Index">Admin Home</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-dark" asp-area="@GlobalConstants.AdminArea" asp-controller="Computer" asp-action="All">All Computers</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Computers
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" asp-area="@GlobalConstants.AdminArea" asp-controller="Computer" asp-action="All">All</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="Computer" asp-action="All">All</a>
+                                <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" asp-area="@GlobalConstants.AdminArea" asp-controller="Computer" asp-action="Create">Create</a>
                                 <div class="dropdown-divider"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ServicePackages
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" asp-area="" asp-controller="ServicePackage" asp-action="All">All</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" asp-area="@GlobalConstants.AdminArea" asp-controller="Computer" asp-action="Create">Create</a>
                             </div>
                         </li>
                     }
@@ -37,6 +51,9 @@
                     {
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="@GlobalConstants.UserArea" asp-controller="User" asp-action="MyAll">My Computers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="@GlobalConstants.UserArea" asp-controller="ServicePackage" asp-action="MyAll">My Service Packages</a>
                         </li>
                     }
                     else

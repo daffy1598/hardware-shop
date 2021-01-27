@@ -1,4 +1,4 @@
-﻿using HardwareShop.Constants;
+﻿
 using HardwareShopRole.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -22,11 +22,9 @@ namespace HardwareShopRole.Controllers
             this.context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-         
 
-         
             return View();
         }
 

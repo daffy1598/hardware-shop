@@ -1,5 +1,5 @@
 ﻿
-namespace HardwareShop.Constants
+namespace HardwareShop.Constans
 {
     public static class GlobalConstants
     {

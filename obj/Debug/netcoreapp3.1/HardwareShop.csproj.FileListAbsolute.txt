@@ -353,3 +353,5 @@ C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\NormalU
 C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\NormalUser\Views\_ViewImports.cshtml.g.cs
 C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Views\Computer\All.cshtml.g.cs
 C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Views\Computer\Details.cshtml.g.cs
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ServicePackage\Create.cshtml.g.cs
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Views\ServicePackage\All.cshtml.g.cs
