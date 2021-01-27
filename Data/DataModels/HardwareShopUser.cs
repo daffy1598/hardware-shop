@@ -14,13 +14,7 @@ namespace HardwareShopRole.Data
 
         public string FavouriteComputer { get; set; }
 
-        public ICollection<ComputerUserMapping> ComputerMapping
-        {
-            get; set;
-        }
-        public ICollection<ServicePackage> ServicePackages
-        {
-            get; set;
-        }
+        public ICollection<ComputerUserMapping> ComputerMapping { get; set; }
+        public ICollection<ServicePackage> ServicePackages { get; set;}
     }
 }

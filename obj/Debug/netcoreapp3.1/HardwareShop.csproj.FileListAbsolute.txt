@@ -345,4 +345,11 @@ C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\V
 C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Computer\Create.cshtml.g.cs
 C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\HardwareShop.csprojAssemblyReference.cache
-C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\NormalUser\Views\Home\Index.cshtml.g.cs
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Computer\Delete.cshtml.g.cs
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Computer\Edit.cshtml.g.cs
+C:\Users\fafi_\Desktop\hardware-shop\bin\Debug\netcoreapp3.1\report.20210126.102943.12912.0.001.json
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\NormalUser\Views\User\MyAll.cshtml.g.cs
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\NormalUser\Views\User\_ViewStart.cshtml.g.cs
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Areas\NormalUser\Views\_ViewImports.cshtml.g.cs
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Views\Computer\All.cshtml.g.cs
+C:\Users\fafi_\Desktop\hardware-shop\obj\Debug\netcoreapp3.1\Razor\Views\Computer\Details.cshtml.g.cs

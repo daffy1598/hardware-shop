@@ -36,9 +36,8 @@
                     else if (SignInManager.IsSignedIn(User) && User.IsInRole(GlobalConstants.UserRole))
                     {
                         <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="@GlobalConstants.UserArea" asp-controller="Home" asp-action="Index">User Home</a>
-            </li>
-                        
+                            <a class="nav-link text-dark" asp-area="@GlobalConstants.UserArea" asp-controller="User" asp-action="MyAll">My Computers</a>
+                        </li>
                     }
                     else
                     {
