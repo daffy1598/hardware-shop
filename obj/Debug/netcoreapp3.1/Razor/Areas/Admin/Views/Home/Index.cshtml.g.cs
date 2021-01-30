@@ -21,7 +21,7 @@ using HardwareShop;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\fafi_\Desktop\hardware-shop\Areas\Admin\Views\_ViewImports.cshtml"
-using HardwareShop.Constants;
+using HardwareShop.Constans;
 
 #line default
 #line hidden
@@ -34,7 +34,7 @@ using HardwareShopRole.Data;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4bee5c263d358c1160ec362e802c4fccdcd464c3", @"/Areas/Admin/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d43def9b670cebba320863ef50b0c16594619ecd", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a9108e816de95f06cccd2e283e5536acefc9713b", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
